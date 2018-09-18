@@ -1,0 +1,374 @@
+Date passed is 20180612
+Output file is myTestFile
+start of the day time is:1534780800-----------------------------
+ Driver main:reading UDPpacket!
+UDP pkt Len: 98.
+Received Seq [1]ProcessBuffer:Received Len:92
+Message type is A.
+----------------------Received Add order message.
+---- input message structure ....
+Price extracted=1234546
+Actual Price 123.4546
+---- End of input message ....
+Price extracted=1234546
+Actual Price 123.4546
+---- output struct before writing to the file ....	
+messageType=1
+messageSize=44
+Ticker=VOD
+timeStamp=1534780801000001000
+OrderRefNum=1
+Side=B
+Size=100
+Price=123.455
+---- End of output struct ....
+---- writing to output file---- 
+---- write to output file complete!!!
+----------------------END Add order message.
+ProcessBuffer:leftOverBytes:58
+Message type is A.
+----------------------Received Add order message.
+---- input message structure ....
+Price extracted=1234546
+Actual Price 123.4546
+---- End of input message ....
+Price extracted=1234546
+Actual Price 123.4546
+---- output struct before writing to the file ....	
+messageType=1
+messageSize=44
+Ticker=VOD
+timeStamp=1534780801000001000
+OrderRefNum=1
+Side=B
+Size=100
+Price=123.455
+---- End of output struct ....
+---- writing to output file---- 
+---- write to output file complete!!!
+----------------------END Add order message.
+ProcessBuffer:leftOverBytes:24
+Message type is A.
+ProcessBuffer:leftOverBytes:24
+Offset 24.
+-----------------------------
+ Driver main:reading UDPpacket!
+UDP pkt Len: 16.
+Received Seq [2]ProcessBuffer:Received Len:34
+Message type is A.
+----------------------Received Add order message.
+---- input message structure ....
+Price extracted=1234546
+Actual Price 123.4546
+---- End of input message ....
+Price extracted=1234546
+Actual Price 123.4546
+---- output struct before writing to the file ....	
+messageType=1
+messageSize=44
+Ticker=VOD
+timeStamp=1534780801000001000
+OrderRefNum=1
+Side=B
+Size=100
+Price=123.455
+---- End of output struct ....
+---- writing to output file---- 
+---- write to output file complete!!!
+----------------------END Add order message.
+ProcessBuffer:leftOverBytes:0
+Offset 0.
+-----------------------------
+ Driver main:reading UDPpacket!
+UDP pkt Len: 27.
+Received Seq [5]###########
+moving to queue !!!!
+#######
+########### Inserted into Q
+########### -----------------------------
+ Driver main:reading UDPpacket!
+UDP pkt Len: 27.
+Received Seq [4]###########
+moving to queue !!!!
+#######
+########### Inserted into Q
+########### -----------------------------
+ Driver main:reading UDPpacket!
+UDP pkt Len: 27.
+Received Seq [3]ProcessBuffer:Received Len:21
+Message type is E.
+----------------------Received Executed order message.
+Order found 
+---- input message structure ....
+---- End of input message ....
+---- output struct before writing to the file ....	
+messageType=2
+messageSize=40
+Ticker=VOD
+timeStamp=1534780801000002000
+OrderRefNum=1
+Size=100
+Price=123.455
+---- End of output struct ....
+writing to output file
+write to output file complete!!!
+----------------------END Executed order message.
+ProcessBuffer:leftOverBytes:0
+Offset 0.
+###########  Q not empty
+########### Iterating thro Q
+########### packetsize[27]  SeqNo:[4]
+###### correct sequece
+ProcessBuffer:Received Len:21
+Message type is E.
+----------------------Received Executed order message.
+Order found 
+---- input message structure ....
+---- End of input message ....
+---- output struct before writing to the file ....	
+messageType=2
+messageSize=40
+Ticker=VOD
+timeStamp=1534780801000002000
+OrderRefNum=1
+Size=100
+Price=123.455
+---- End of output struct ....
+writing to output file
+write to output file complete!!!
+----------------------END Executed order message.
+ProcessBuffer:leftOverBytes:0
+Offset 0.
+########### Iterating thro Q
+########### packetsize[27]  SeqNo:[5]
+###### correct sequece
+ProcessBuffer:Received Len:21
+Message type is E.
+----------------------Received Executed order message.
+Order found 
+---- input message structure ....
+---- End of input message ....
+---- output struct before writing to the file ....	
+messageType=2
+messageSize=40
+Ticker=VOD
+timeStamp=1534780801000002000
+OrderRefNum=1
+Size=100
+Price=123.455
+---- End of output struct ....
+writing to output file
+write to output file complete!!!
+----------------------END Executed order message.
+ProcessBuffer:leftOverBytes:0
+Offset 0.
+-----------------------------
+ Driver main:reading UDPpacket!
+UDP pkt Len: 27.
+Received Seq [8]###########
+moving to queue !!!!
+#######
+########### Inserted into Q
+########### -----------------------------
+ Driver main:reading UDPpacket!
+UDP pkt Len: 27.
+Received Seq [7]###########
+moving to queue !!!!
+#######
+########### Inserted into Q
+########### -----------------------------
+ Driver main:reading UDPpacket!
+UDP pkt Len: 27.
+Received Seq [6]ProcessBuffer:Received Len:21
+Message type is E.
+----------------------Received Executed order message.
+Order found 
+---- input message structure ....
+---- End of input message ....
+---- output struct before writing to the file ....	
+messageType=2
+messageSize=40
+Ticker=VOD
+timeStamp=1534780801000003000
+OrderRefNum=1
+Size=100
+Price=123.455
+---- End of output struct ....
+writing to output file
+write to output file complete!!!
+----------------------END Executed order message.
+ProcessBuffer:leftOverBytes:0
+Offset 0.
+###########  Q not empty
+########### Iterating thro Q
+########### packetsize[27]  SeqNo:[7]
+###### correct sequece
+ProcessBuffer:Received Len:21
+Message type is E.
+----------------------Received Executed order message.
+Order found 
+---- input message structure ....
+---- End of input message ....
+---- output struct before writing to the file ....	
+messageType=2
+messageSize=40
+Ticker=VOD
+timeStamp=1534780801000003000
+OrderRefNum=1
+Size=100
+Price=123.455
+---- End of output struct ....
+writing to output file
+write to output file complete!!!
+----------------------END Executed order message.
+ProcessBuffer:leftOverBytes:0
+Offset 0.
+########### Iterating thro Q
+########### packetsize[27]  SeqNo:[8]
+###### correct sequece
+ProcessBuffer:Received Len:21
+Message type is E.
+----------------------Received Executed order message.
+Order found 
+---- input message structure ....
+---- End of input message ....
+---- output struct before writing to the file ....	
+messageType=2
+messageSize=40
+Ticker=VOD
+timeStamp=1534780801000003000
+OrderRefNum=1
+Size=100
+Price=123.455
+---- End of output struct ....
+writing to output file
+write to output file complete!!!
+----------------------END Executed order message.
+ProcessBuffer:leftOverBytes:0
+Offset 0.
+-----------------------------
+ Driver main:reading UDPpacket!
+UDP pkt Len: 27.
+Received Seq [9]ProcessBuffer:Received Len:21
+Message type is X.
+----------------------Received Cancelled order message.
+---- input message structure ....
+Order found 
+---- End of input message ....
+---- output struct before writing to the file ....	
+messageType=3
+messageSize=32
+Ticker=VOD
+timeStamp=1534780801000004000
+OrderRefNum=1
+Size=100
+---- End of output struct ....
+writing to output file
+write to output file complete!!!
+----------------------END Cancelled order message.
+ProcessBuffer:leftOverBytes:0
+Offset 0.
+-----------------------------
+ Driver main:reading UDPpacket!
+UDP pkt Len: 98.
+Received Seq [10]ProcessBuffer:Received Len:92
+Message type is A.
+----------------------Received Add order message.
+---- input message structure ....
+Price extracted=1234558
+Actual Price 123.4558
+---- End of input message ....
+Price extracted=1234558
+Actual Price 123.4558
+---- output struct before writing to the file ....	
+messageType=1
+messageSize=44
+Ticker=VOD
+timeStamp=1534780801000005000
+OrderRefNum=2
+Side=S
+Size=100
+Price=123.456
+---- End of output struct ....
+---- writing to output file---- 
+---- write to output file complete!!!
+----------------------END Add order message.
+ProcessBuffer:leftOverBytes:58
+Message type is A.
+----------------------Received Add order message.
+---- input message structure ....
+Price extracted=1234558
+Actual Price 123.4558
+---- End of input message ....
+Price extracted=1234558
+Actual Price 123.4558
+---- output struct before writing to the file ....	
+messageType=1
+messageSize=44
+Ticker=VOD
+timeStamp=1534780801000005000
+OrderRefNum=2
+Side=S
+Size=100
+Price=123.456
+---- End of output struct ....
+---- writing to output file---- 
+---- write to output file complete!!!
+----------------------END Add order message.
+ProcessBuffer:leftOverBytes:24
+Message type is A.
+ProcessBuffer:leftOverBytes:24
+Offset 24.
+-----------------------------
+ Driver main:reading UDPpacket!
+UDP pkt Len: 16.
+Received Seq [11]ProcessBuffer:Received Len:34
+Message type is A.
+----------------------Received Add order message.
+---- input message structure ....
+Price extracted=1234558
+Actual Price 123.4558
+---- End of input message ....
+Price extracted=1234558
+Actual Price 123.4558
+---- output struct before writing to the file ....	
+messageType=1
+messageSize=44
+Ticker=VOD
+timeStamp=1534780801000005000
+OrderRefNum=2
+Side=S
+Size=100
+Price=123.456
+---- End of output struct ....
+---- writing to output file---- 
+---- write to output file complete!!!
+----------------------END Add order message.
+ProcessBuffer:leftOverBytes:0
+Offset 0.
+-----------------------------
+ Driver main:reading UDPpacket!
+UDP pkt Len: 39.
+Received Seq [12]ProcessBuffer:Received Len:33
+Message type is R.
+----------------------Received Replaced order message.
+Order found 
+Old order's ticker=VOD
+---- input message structure ....
+---- End of input message ....
+---- output struct before writing to the file ....	
+messageType=4
+messageSize=48
+Ticker=VOD
+timeStamp=1000006
+OrgOrderRefNum=2
+NewOrderRefNum=3
+size=1000
+Price=123.46
+---- End of output struct ....
+writing to output file
+write to output file complete!!!!!!
+
+----------------------END Replaced order message.
+ProcessBuffer:leftOverBytes:0
+Offset 0.
