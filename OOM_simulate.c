@@ -1,5 +1,5 @@
 # include <iostream>
-# include <sys/param.h>
+# include <signal.h>
 # include <string.h>
 
 void handler(int nSignum, siginfo_t* si, void* vcontext) 
