@@ -1,3 +1,7 @@
+# include <iostream>
+# include <sys/param.h>
+# include <string.h>
+
 void handler(int nSignum, siginfo_t* si, void* vcontext) 
 {
   std::cout << "Segmentation fault" << std::endl;
